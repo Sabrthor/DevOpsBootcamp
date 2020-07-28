@@ -8,10 +8,10 @@ az group list -o table
 az vm list -o table
 
 # update azure advisor recommendations
-az advisor configuration show
+az advisor configuration show -o table
 
 # list azure advisor recommendations
-az advisor recommendation list --category cost
-az advisor recommendation list --category performance
-az advisor recommendation list --category HighAvailability
-az advisor recommendation list --category Security
+az advisor recommendation list --category cost -o table
+az advisor recommendation list --category performance -o table
+az advisor recommendation list --category HighAvailability -o table
+az advisor recommendation list --category Security -o table
