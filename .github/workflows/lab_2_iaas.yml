@@ -8,8 +8,8 @@ on:
 name: Lab_2_IaaS
 
 env:
-  RG_NAME: amitabh
-  LOCATION: southindia
+  RG_NAME: rg-lab-2
+  LOCATION: eastus2
 
 jobs:
 
